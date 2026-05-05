@@ -17,7 +17,7 @@ The Student Stress Analyzer is an analysis tool that allows the analyst to acces
 ### **Usage**
 
 * **Load file of students with data:** `loadFromFile()`
-    File format: 
+File format: 
 ```
 id,study_hours,sleep_hours,social_media_hours,exam_score,stress_level
 1,2,6,5,55,High
@@ -34,10 +34,10 @@ id,study_hours,sleep_hours,social_media_hours,exam_score,stress_level
 * **Get a specific student's data:** `getStudent(int id)`
 * **Mean, Median, and Modes of data by a specific variable:**
 ```
-    getMeanSleepHours()
-    getMedianStudyHours()
-    getModeMediaHours()
-    getMeanScore()
+getMeanSleepHours()
+getMedianStudyHours()
+getModeMediaHours()
+getMeanScore()
 ```
 
 ---
