@@ -17,7 +17,15 @@ The Student Stress Analyzer is an analysis tool that allows the analyst to acces
 ### **Usage**
 
 * **Load file of students with data:** `loadFromFile()`
-    File format: ```"id,study_hours,sleep_hours,social_media_hours,exam_score,stress_level \n 1,2,6,5,55,High"```
+    File format: 
+```
+id,study_hours,sleep_hours,social_media_hours,exam_score,stress_level
+1,2,6,5,55,High
+2,5,7,2,75,Low
+.
+.
+.
+```
 * **List students in descending order by hours spent studying:** `listByStudyHours()`
 * **List students in descending order by hours spent sleeping:** `listBySleepHours()`
 * **List students in descending order by hours spent on social media:** `listByMediaHours()`
@@ -36,6 +44,6 @@ The Student Stress Analyzer is an analysis tool that allows the analyst to acces
 
 ### **Resources**
 
-* Utilized Kaggle for test data [Dataset](https://www.kaggle.com/datasets/hassanali789/student-stress-and-study-behavior-dataset?resource=download)
+* Utilized Kaggle for test data: [Dataset](https://www.kaggle.com/datasets/hassanali789/student-stress-and-study-behavior-dataset?resource=download)
 
 ---
